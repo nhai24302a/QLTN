@@ -16,5 +16,10 @@ namespace QLTN
         {
             InitializeComponent();
         }
+
+        private void FrmCauHoi_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

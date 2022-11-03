@@ -64,13 +64,15 @@ namespace QLTN
             // 
             // label1
             // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Cambria", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(132)))), ((int)(((byte)(200)))));
-            this.label1.Location = new System.Drawing.Point(1, 1);
+            this.label1.Location = new System.Drawing.Point(59, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(238, 45);
+            this.label1.Size = new System.Drawing.Size(114, 28);
             this.label1.TabIndex = 2;
             this.label1.Text = "Xin chào!";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -131,31 +133,31 @@ namespace QLTN
             // 
             this.câuHỏiToolStripMenuItem.Image = global::QLTN.Properties.Resources.book;
             this.câuHỏiToolStripMenuItem.Name = "câuHỏiToolStripMenuItem";
-            this.câuHỏiToolStripMenuItem.Size = new System.Drawing.Size(212, 32);
+            this.câuHỏiToolStripMenuItem.Size = new System.Drawing.Size(244, 46);
             this.câuHỏiToolStripMenuItem.Text = "1. Câu hỏi";
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(209, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(241, 6);
             // 
             // mônThiToolStripMenuItem
             // 
             this.mônThiToolStripMenuItem.Image = global::QLTN.Properties.Resources.education;
             this.mônThiToolStripMenuItem.Name = "mônThiToolStripMenuItem";
-            this.mônThiToolStripMenuItem.Size = new System.Drawing.Size(212, 32);
+            this.mônThiToolStripMenuItem.Size = new System.Drawing.Size(244, 46);
             this.mônThiToolStripMenuItem.Text = "2. Môn thi";
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(209, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(241, 6);
             // 
             // caThiToolStripMenuItem
             // 
             this.caThiToolStripMenuItem.Image = global::QLTN.Properties.Resources.exam;
             this.caThiToolStripMenuItem.Name = "caThiToolStripMenuItem";
-            this.caThiToolStripMenuItem.Size = new System.Drawing.Size(212, 32);
+            this.caThiToolStripMenuItem.Size = new System.Drawing.Size(244, 46);
             this.caThiToolStripMenuItem.Text = "3. Ca thi";
             // 
             // toolStripMenuItem1
@@ -301,7 +303,7 @@ namespace QLTN
             this.pictureBox1.Image = global::QLTN.Properties.Resources.Picture11;
             this.pictureBox1.Location = new System.Drawing.Point(4, 178);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1017, 650);
+            this.pictureBox1.Size = new System.Drawing.Size(1017, 604);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
@@ -318,17 +320,15 @@ namespace QLTN
             this.label2.Text = "Trang chủ";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // TrangChu
+            // FrmTrangChu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(1265, 830);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label1);
-            this.Name = "TrangChu";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Name = "FrmTrangChu";
             this.Text = "TrangChu";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.panel1.ResumeLayout(false);

@@ -122,7 +122,7 @@ namespace QLTN
             this.button4.BackColor = System.Drawing.Color.White;
             this.button4.Font = new System.Drawing.Font("Cambria", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(132)))), ((int)(((byte)(253)))));
-            this.button4.Location = new System.Drawing.Point(869, 88);
+            this.button4.Location = new System.Drawing.Point(860, 129);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(98, 34);
             this.button4.TabIndex = 15;
@@ -134,7 +134,7 @@ namespace QLTN
             this.button3.BackColor = System.Drawing.Color.White;
             this.button3.Font = new System.Drawing.Font("Cambria", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(132)))), ((int)(((byte)(253)))));
-            this.button3.Location = new System.Drawing.Point(869, 29);
+            this.button3.Location = new System.Drawing.Point(860, 70);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(98, 34);
             this.button3.TabIndex = 14;
@@ -146,7 +146,7 @@ namespace QLTN
             this.button2.BackColor = System.Drawing.Color.White;
             this.button2.Font = new System.Drawing.Font("Cambria", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(132)))), ((int)(((byte)(253)))));
-            this.button2.Location = new System.Drawing.Point(724, 90);
+            this.button2.Location = new System.Drawing.Point(715, 131);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(98, 34);
             this.button2.TabIndex = 13;
@@ -158,7 +158,7 @@ namespace QLTN
             this.button1.BackColor = System.Drawing.Color.White;
             this.button1.Font = new System.Drawing.Font("Cambria", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(132)))), ((int)(((byte)(253)))));
-            this.button1.Location = new System.Drawing.Point(724, 29);
+            this.button1.Location = new System.Drawing.Point(715, 70);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(98, 34);
             this.button1.TabIndex = 12;
@@ -295,7 +295,7 @@ namespace QLTN
             this.dataGridView1.Size = new System.Drawing.Size(999, 410);
             this.dataGridView1.TabIndex = 2;
             // 
-            // ThiSinh
+            // FrmThiSinh
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -306,7 +306,7 @@ namespace QLTN
             this.Font = new System.Drawing.Font("Cambria", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.Name = "ThiSinh";
+            this.Name = "FrmThiSinh";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ThiSinh";
             this.panel1.ResumeLayout(false);

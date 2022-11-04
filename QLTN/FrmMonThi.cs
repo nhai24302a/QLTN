@@ -10,19 +10,14 @@ using System.Windows.Forms;
 
 namespace QLTN
 {
-    public partial class FrmCauHoi : Form
+    public partial class FrmMonThi : Form
     {
-        public FrmCauHoi()
+        public FrmMonThi()
         {
             InitializeComponent();
         }
 
-        private void FrmCauHoi_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
+        private void FrmMonThi_Load(object sender, EventArgs e)
         {
 
         }

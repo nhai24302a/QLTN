@@ -52,6 +52,12 @@
     <Compile Include="FrmBangDiem.Designer.cs">
       <DependentUpon>FrmBangDiem.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmCaThi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCaThi.Designer.cs">
+      <DependentUpon>FrmCaThi.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmCauHoi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,6 +76,12 @@
     <Compile Include="FrmLogin.Designer.cs">
       <DependentUpon>FrmLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmMonThi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMonThi.Designer.cs">
+      <DependentUpon>FrmMonThi.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="FrmThiSinh.cs">
@@ -87,6 +99,9 @@
     <EmbeddedResource Include="FrmBangDiem.resx">
       <DependentUpon>FrmBangDiem.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmCaThi.resx">
+      <DependentUpon>FrmCaThi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmCauHoi.resx">
       <DependentUpon>FrmCauHoi.cs</DependentUpon>
     </EmbeddedResource>
@@ -95,6 +110,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMonThi.resx">
+      <DependentUpon>FrmMonThi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

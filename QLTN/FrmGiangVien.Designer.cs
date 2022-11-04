@@ -102,7 +102,7 @@ namespace QLTN
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(164, 38);
             this.button6.TabIndex = 21;
-            this.button6.Text = "Hủy lọc dữ liệu";
+            this.button6.Text = "Lọc dữ liệu";
             this.button6.UseVisualStyleBackColor = false;
             // 
             // button5
@@ -114,7 +114,7 @@ namespace QLTN
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(164, 38);
             this.button5.TabIndex = 20;
-            this.button5.Text = "Lọc dữ liệu";
+            this.button5.Text = "Hủy lọc dữ liệu";
             this.button5.UseVisualStyleBackColor = false;
             // 
             // button4
@@ -299,12 +299,12 @@ namespace QLTN
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1000, 784);
+            this.ClientSize = new System.Drawing.Size(1006, 784);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label1);
             this.Name = "FrmGiangVien";
-            this.Text = "GiangVien";
+            this.Text = "FrmGiangVien";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

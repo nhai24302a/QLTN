@@ -26,7 +26,14 @@ namespace QLTN
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            //conn.Close();
+            /*constr = "Data Source=DESKTOP-6H5PSI2\\SQLEXPRESS05;" +
+               "Initial Catalog=Test;Integrated Security=True;";
+            if (conn.State == ConnectionState.Closed)
+            {
+                conn.ConnectionString = constr;
+                conn.Open();
+            }*/
         }
     }
 }

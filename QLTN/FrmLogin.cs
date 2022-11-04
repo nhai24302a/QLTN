@@ -7,11 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace QLTN
 {
     public partial class FrmLogin : Form
     {
+
         public FrmLogin()
         {
             InitializeComponent();

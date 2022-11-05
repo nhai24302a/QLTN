@@ -31,21 +31,23 @@ namespace QLTN
         {
             this.label4 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtTenMon = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtMaMon = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtSoCau = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.txtSoCD = new System.Windows.Forms.TextBox();
+            this.btnupdate = new System.Windows.Forms.Button();
+            this.btndelete = new System.Windows.Forms.Button();
+            this.btnedit = new System.Windows.Forms.Button();
+            this.btnaddnew = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
+            this.txtSoCK = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.grdData = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.grdData)).BeginInit();
             this.SuspendLayout();
             // 
             // label4
@@ -71,15 +73,15 @@ namespace QLTN
             this.label1.TabIndex = 4;
             this.label1.Text = "Tên môn thi:";
             // 
-            // textBox1
+            // txtTenMon
             // 
-            this.textBox1.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.Black;
-            this.textBox1.Location = new System.Drawing.Point(177, 513);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(233, 34);
-            this.textBox1.TabIndex = 5;
+            this.txtTenMon.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTenMon.ForeColor = System.Drawing.Color.Black;
+            this.txtTenMon.Location = new System.Drawing.Point(177, 513);
+            this.txtTenMon.Multiline = true;
+            this.txtTenMon.Name = "txtTenMon";
+            this.txtTenMon.Size = new System.Drawing.Size(233, 34);
+            this.txtTenMon.TabIndex = 5;
             // 
             // label2
             // 
@@ -92,15 +94,15 @@ namespace QLTN
             this.label2.TabIndex = 6;
             this.label2.Text = "Mã môn thi:";
             // 
-            // textBox2
+            // txtMaMon
             // 
-            this.textBox2.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.ForeColor = System.Drawing.Color.Black;
-            this.textBox2.Location = new System.Drawing.Point(177, 462);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(233, 34);
-            this.textBox2.TabIndex = 7;
+            this.txtMaMon.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMaMon.ForeColor = System.Drawing.Color.Black;
+            this.txtMaMon.Location = new System.Drawing.Point(177, 462);
+            this.txtMaMon.Multiline = true;
+            this.txtMaMon.Name = "txtMaMon";
+            this.txtMaMon.Size = new System.Drawing.Size(233, 34);
+            this.txtMaMon.TabIndex = 7;
             // 
             // label3
             // 
@@ -109,109 +111,93 @@ namespace QLTN
             this.label3.ForeColor = System.Drawing.Color.Black;
             this.label3.Location = new System.Drawing.Point(23, 569);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(105, 23);
+            this.label3.Size = new System.Drawing.Size(65, 23);
             this.label3.TabIndex = 8;
-            this.label3.Text = "Giảng viên:";
+            this.label3.Text = "Số câu";
             // 
-            // textBox3
+            // txtSoCau
             // 
-            this.textBox3.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.ForeColor = System.Drawing.Color.Black;
-            this.textBox3.Location = new System.Drawing.Point(177, 564);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(233, 34);
-            this.textBox3.TabIndex = 9;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(476, 465);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(70, 23);
-            this.label5.TabIndex = 10;
-            this.label5.Text = "Số câu:";
-            // 
-            // textBox4
-            // 
-            this.textBox4.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.ForeColor = System.Drawing.Color.Black;
-            this.textBox4.Location = new System.Drawing.Point(669, 462);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(233, 34);
-            this.textBox4.TabIndex = 11;
+            this.txtSoCau.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSoCau.ForeColor = System.Drawing.Color.Black;
+            this.txtSoCau.Location = new System.Drawing.Point(177, 564);
+            this.txtSoCau.Multiline = true;
+            this.txtSoCau.Name = "txtSoCau";
+            this.txtSoCau.Size = new System.Drawing.Size(233, 34);
+            this.txtSoCau.TabIndex = 9;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Black;
-            this.label6.Location = new System.Drawing.Point(476, 518);
+            this.label6.Location = new System.Drawing.Point(476, 465);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(164, 23);
+            this.label6.Size = new System.Drawing.Size(90, 23);
             this.label6.TabIndex = 12;
-            this.label6.Text = "Thời gian làm bài:";
+            this.label6.Text = "Số câu dễ";
             // 
-            // textBox5
+            // txtSoCD
             // 
-            this.textBox5.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.ForeColor = System.Drawing.Color.Black;
-            this.textBox5.Location = new System.Drawing.Point(669, 515);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(233, 34);
-            this.textBox5.TabIndex = 13;
+            this.txtSoCD.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSoCD.ForeColor = System.Drawing.Color.Black;
+            this.txtSoCD.Location = new System.Drawing.Point(669, 462);
+            this.txtSoCD.Multiline = true;
+            this.txtSoCD.Name = "txtSoCD";
+            this.txtSoCD.Size = new System.Drawing.Size(233, 34);
+            this.txtSoCD.TabIndex = 13;
             // 
-            // button4
+            // btnupdate
             // 
-            this.button4.BackColor = System.Drawing.Color.White;
-            this.button4.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(132)))), ((int)(((byte)(253)))));
-            this.button4.Location = new System.Drawing.Point(618, 628);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(108, 44);
-            this.button4.TabIndex = 23;
-            this.button4.Text = "Cập nhật";
-            this.button4.UseVisualStyleBackColor = false;
+            this.btnupdate.BackColor = System.Drawing.Color.White;
+            this.btnupdate.Enabled = false;
+            this.btnupdate.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnupdate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(132)))), ((int)(((byte)(253)))));
+            this.btnupdate.Location = new System.Drawing.Point(618, 628);
+            this.btnupdate.Name = "btnupdate";
+            this.btnupdate.Size = new System.Drawing.Size(108, 44);
+            this.btnupdate.TabIndex = 23;
+            this.btnupdate.Text = "Cập nhật";
+            this.btnupdate.UseVisualStyleBackColor = false;
+            this.btnupdate.Click += new System.EventHandler(this.btnupdate_Click);
             // 
-            // button3
+            // btndelete
             // 
-            this.button3.BackColor = System.Drawing.Color.White;
-            this.button3.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(132)))), ((int)(((byte)(253)))));
-            this.button3.Location = new System.Drawing.Point(480, 628);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(108, 44);
-            this.button3.TabIndex = 22;
-            this.button3.Text = "Xóa";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btndelete.BackColor = System.Drawing.Color.White;
+            this.btndelete.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btndelete.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(132)))), ((int)(((byte)(253)))));
+            this.btndelete.Location = new System.Drawing.Point(480, 628);
+            this.btndelete.Name = "btndelete";
+            this.btndelete.Size = new System.Drawing.Size(108, 44);
+            this.btndelete.TabIndex = 22;
+            this.btndelete.Text = "Xóa";
+            this.btndelete.UseVisualStyleBackColor = false;
+            this.btndelete.Click += new System.EventHandler(this.btndelete_Click);
             // 
-            // button2
+            // btnedit
             // 
-            this.button2.BackColor = System.Drawing.Color.White;
-            this.button2.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(132)))), ((int)(((byte)(253)))));
-            this.button2.Location = new System.Drawing.Point(342, 628);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(108, 44);
-            this.button2.TabIndex = 21;
-            this.button2.Text = "Sửa";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnedit.BackColor = System.Drawing.Color.White;
+            this.btnedit.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnedit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(132)))), ((int)(((byte)(253)))));
+            this.btnedit.Location = new System.Drawing.Point(342, 628);
+            this.btnedit.Name = "btnedit";
+            this.btnedit.Size = new System.Drawing.Size(108, 44);
+            this.btnedit.TabIndex = 21;
+            this.btnedit.Text = "Sửa";
+            this.btnedit.UseVisualStyleBackColor = false;
+            this.btnedit.Click += new System.EventHandler(this.btnedit_Click);
             // 
-            // button1
+            // btnaddnew
             // 
-            this.button1.BackColor = System.Drawing.Color.White;
-            this.button1.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(132)))), ((int)(((byte)(253)))));
-            this.button1.Location = new System.Drawing.Point(204, 628);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(108, 44);
-            this.button1.TabIndex = 20;
-            this.button1.Text = "Thêm";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnaddnew.BackColor = System.Drawing.Color.White;
+            this.btnaddnew.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnaddnew.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(132)))), ((int)(((byte)(253)))));
+            this.btnaddnew.Location = new System.Drawing.Point(204, 628);
+            this.btnaddnew.Name = "btnaddnew";
+            this.btnaddnew.Size = new System.Drawing.Size(108, 44);
+            this.btnaddnew.TabIndex = 20;
+            this.btnaddnew.Text = "Thêm";
+            this.btnaddnew.UseVisualStyleBackColor = false;
+            this.btnaddnew.Click += new System.EventHandler(this.btnaddnew_Click);
             // 
             // button6
             // 
@@ -237,32 +223,66 @@ namespace QLTN
             this.button5.Text = "Hủy lọc dữ liệu";
             this.button5.UseVisualStyleBackColor = false;
             // 
+            // txtSoCK
+            // 
+            this.txtSoCK.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSoCK.ForeColor = System.Drawing.Color.Black;
+            this.txtSoCK.Location = new System.Drawing.Point(669, 513);
+            this.txtSoCK.Multiline = true;
+            this.txtSoCK.Name = "txtSoCK";
+            this.txtSoCK.Size = new System.Drawing.Size(233, 34);
+            this.txtSoCK.TabIndex = 27;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.Black;
+            this.label7.Location = new System.Drawing.Point(476, 516);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(101, 23);
+            this.label7.TabIndex = 26;
+            this.label7.Text = "Số câu khó";
+            // 
+            // grdData
+            // 
+            this.grdData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.grdData.Location = new System.Drawing.Point(1, 49);
+            this.grdData.Name = "grdData";
+            this.grdData.RowHeadersWidth = 51;
+            this.grdData.RowTemplate.Height = 24;
+            this.grdData.Size = new System.Drawing.Size(1004, 388);
+            this.grdData.TabIndex = 28;
+            this.grdData.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
             // FrmMonThi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.ClientSize = new System.Drawing.Size(1006, 784);
+            this.Controls.Add(this.grdData);
+            this.Controls.Add(this.txtSoCK);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.btnupdate);
+            this.Controls.Add(this.btndelete);
+            this.Controls.Add(this.btnedit);
+            this.Controls.Add(this.btnaddnew);
+            this.Controls.Add(this.txtSoCD);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.txtSoCau);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtMaMon);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtTenMon);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label4);
             this.Name = "FrmMonThi";
             this.Text = "FrmMonThi";
             this.Load += new System.EventHandler(this.FrmMonThi_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.grdData)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -272,20 +292,21 @@ namespace QLTN
 
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtTenMon;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtMaMon;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtSoCau;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox txtSoCD;
+        private System.Windows.Forms.Button btnupdate;
+        private System.Windows.Forms.Button btndelete;
+        private System.Windows.Forms.Button btnedit;
+        private System.Windows.Forms.Button btnaddnew;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.TextBox txtSoCK;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.DataGridView grdData;
     }
 }

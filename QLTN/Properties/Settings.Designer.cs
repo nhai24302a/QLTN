@@ -33,5 +33,16 @@ namespace QLTN.Properties {
                 return ((string)(this["QLTNConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-6H5PSI2\\SQLEXPRESS05;Initial Catalog=QLTN;Integrated Security" +
+            "=True")]
+        public string QLTNConnectionString1 {
+            get {
+                return ((string)(this["QLTNConnectionString1"]));
+            }
+        }
     }
 }

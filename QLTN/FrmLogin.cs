@@ -37,7 +37,7 @@ namespace QLTN
 
         private void button1_Click(object sender, EventArgs e)
         {
-            constr = "Data Source = DESKTOP-5PV9M2M\\SQLEXPRESS; Initial Catalog = QLTN; Integrated Security = True;";
+            constr = "Data Source = DESKTOP-6H5PSI2\\SQLEXPRESS05; Initial Catalog = QLTN; Integrated Security = True;";
             
             conn.ConnectionString = constr;
             conn.Open();
@@ -58,9 +58,8 @@ namespace QLTN
                 }
                 if (r == "Thí sinh")
                 {
-                    /*Thisinh f2 = new Thisinh();
-                    f2.username = txtAcc.Text;
-                    f2.Show();*/
+                    FrmVaoThi f2 = new FrmVaoThi(username);
+                    f2.Show();
                 }
             }
             else

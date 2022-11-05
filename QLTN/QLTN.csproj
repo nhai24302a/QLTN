@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmBaiThiTN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBaiThiTN.Designer.cs">
+      <DependentUpon>FrmBaiThiTN.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmBangDiem.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -82,6 +88,18 @@
     <Compile Include="FrmMonThi.Designer.cs">
       <DependentUpon>FrmMonThi.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmTaiKhoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTaiKhoan.Designer.cs">
+      <DependentUpon>FrmTaiKhoan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVaoThi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVaoThi.Designer.cs">
+      <DependentUpon>FrmVaoThi.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="FrmThiSinh.cs">
@@ -101,6 +119,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>QLTNDataSet1.xsd</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="FrmBaiThiTN.resx">
+      <DependentUpon>FrmBaiThiTN.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmBangDiem.resx">
       <DependentUpon>FrmBangDiem.cs</DependentUpon>
     </EmbeddedResource>
@@ -118,6 +139,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmMonThi.resx">
       <DependentUpon>FrmMonThi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTaiKhoan.resx">
+      <DependentUpon>FrmTaiKhoan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVaoThi.resx">
+      <DependentUpon>FrmVaoThi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -218,6 +245,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\information1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\male-student-icon-png_265268.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

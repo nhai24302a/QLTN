@@ -12,9 +12,11 @@ namespace QLTN
 {
     public partial class FrmTrangChu : Form
     {
-        public FrmTrangChu()
+        string tenuser;
+        public FrmTrangChu(string username)
         {
             InitializeComponent();
+            tenuser = username;
         }
 
         private void hToolStripMenuItem_Click(object sender, EventArgs e)
@@ -25,6 +27,16 @@ namespace QLTN
         private void toolStripMenuItem1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void FrmTrangChu_Load(object sender, EventArgs e)
+        {
+            lblHi.Text = lblHi.Text + " " + tenuser;
         }
     }
 }

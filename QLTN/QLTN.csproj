@@ -96,6 +96,11 @@
     <Compile Include="FrmTrangChu.Designer.cs">
       <DependentUpon>FrmTrangChu.cs</DependentUpon>
     </Compile>
+    <Compile Include="QLTNDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLTNDataSet.xsd</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="FrmBangDiem.resx">
       <DependentUpon>FrmBangDiem.cs</DependentUpon>
     </EmbeddedResource>
@@ -144,6 +149,17 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="QLTNDataSet.xsc">
+      <DependentUpon>QLTNDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QLTNDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLTNDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLTNDataSet.xss">
+      <DependentUpon>QLTNDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Resources\Nền.png" />
   </ItemGroup>
   <ItemGroup>

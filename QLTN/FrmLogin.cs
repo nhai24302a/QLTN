@@ -68,7 +68,7 @@ namespace QLTN
                 MessageBox.Show("Đăng nhập sai, vui lòng thử lại", "Thông báo!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 txtAcc.Clear();
                 txtPass.Clear();
-                
+                txtAcc.Focus();
             }
         }
     }

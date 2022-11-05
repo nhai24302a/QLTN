@@ -52,13 +52,13 @@ namespace QLTN
             this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
             this.hướngDẫnSửDụngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.đăngXuấtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.pnl2 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
-            this.panel2.SuspendLayout();
+            this.pnl2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -83,7 +83,7 @@ namespace QLTN
             this.panel1.BackColor = System.Drawing.Color.DarkGray;
             this.panel1.Controls.Add(this.menuStrip1);
             this.panel1.Location = new System.Drawing.Point(1, 37);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(178, 636);
             this.panel1.TabIndex = 3;
@@ -135,32 +135,35 @@ namespace QLTN
             // 
             this.câuHỏiToolStripMenuItem.Image = global::QLTN.Properties.Resources.book;
             this.câuHỏiToolStripMenuItem.Name = "câuHỏiToolStripMenuItem";
-            this.câuHỏiToolStripMenuItem.Size = new System.Drawing.Size(169, 26);
+            this.câuHỏiToolStripMenuItem.Size = new System.Drawing.Size(204, 46);
             this.câuHỏiToolStripMenuItem.Text = "1. Câu hỏi";
+            this.câuHỏiToolStripMenuItem.Click += new System.EventHandler(this.câuHỏiToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(166, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(201, 6);
             // 
             // mônThiToolStripMenuItem
             // 
             this.mônThiToolStripMenuItem.Image = global::QLTN.Properties.Resources.education;
             this.mônThiToolStripMenuItem.Name = "mônThiToolStripMenuItem";
-            this.mônThiToolStripMenuItem.Size = new System.Drawing.Size(169, 26);
+            this.mônThiToolStripMenuItem.Size = new System.Drawing.Size(204, 46);
             this.mônThiToolStripMenuItem.Text = "2. Môn thi";
+            this.mônThiToolStripMenuItem.Click += new System.EventHandler(this.mônThiToolStripMenuItem_Click);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(166, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(201, 6);
             // 
             // caThiToolStripMenuItem
             // 
             this.caThiToolStripMenuItem.Image = global::QLTN.Properties.Resources.exam;
             this.caThiToolStripMenuItem.Name = "caThiToolStripMenuItem";
-            this.caThiToolStripMenuItem.Size = new System.Drawing.Size(169, 26);
+            this.caThiToolStripMenuItem.Size = new System.Drawing.Size(204, 46);
             this.caThiToolStripMenuItem.Text = "3. Ca thi";
+            this.caThiToolStripMenuItem.Click += new System.EventHandler(this.caThiToolStripMenuItem_Click);
             // 
             // toolStripMenuItem1
             // 
@@ -183,20 +186,22 @@ namespace QLTN
             // 
             this.quảnLýThíSinhToolStripMenuItem.Image = global::QLTN.Properties.Resources.graduated;
             this.quảnLýThíSinhToolStripMenuItem.Name = "quảnLýThíSinhToolStripMenuItem";
-            this.quảnLýThíSinhToolStripMenuItem.Size = new System.Drawing.Size(259, 26);
+            this.quảnLýThíSinhToolStripMenuItem.Size = new System.Drawing.Size(283, 46);
             this.quảnLýThíSinhToolStripMenuItem.Text = "1. Quản lý thí sinh";
+            this.quảnLýThíSinhToolStripMenuItem.Click += new System.EventHandler(this.quảnLýThíSinhToolStripMenuItem_Click);
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(256, 6);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(280, 6);
             // 
             // quảnLýGiảngViênToolStripMenuItem
             // 
             this.quảnLýGiảngViênToolStripMenuItem.Image = global::QLTN.Properties.Resources.teacher;
             this.quảnLýGiảngViênToolStripMenuItem.Name = "quảnLýGiảngViênToolStripMenuItem";
-            this.quảnLýGiảngViênToolStripMenuItem.Size = new System.Drawing.Size(259, 26);
+            this.quảnLýGiảngViênToolStripMenuItem.Size = new System.Drawing.Size(283, 46);
             this.quảnLýGiảngViênToolStripMenuItem.Text = "2. Quản lý giảng viên";
+            this.quảnLýGiảngViênToolStripMenuItem.Click += new System.EventHandler(this.quảnLýGiảngViênToolStripMenuItem_Click);
             // 
             // báoCáoToolStripMenuItem
             // 
@@ -277,19 +282,19 @@ namespace QLTN
             this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(175, 54);
             this.đăngXuấtToolStripMenuItem.Text = "Đăng xuất";
             // 
-            // panel2
+            // pnl2
             // 
-            this.panel2.AutoSize = true;
-            this.panel2.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.panel2.Controls.Add(this.label3);
-            this.panel2.Controls.Add(this.pictureBox1);
-            this.panel2.Controls.Add(this.label2);
-            this.panel2.Location = new System.Drawing.Point(182, 1);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(768, 675);
-            this.panel2.TabIndex = 1;
-            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            this.pnl2.AutoSize = true;
+            this.pnl2.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.pnl2.Controls.Add(this.label3);
+            this.pnl2.Controls.Add(this.pictureBox1);
+            this.pnl2.Controls.Add(this.label2);
+            this.pnl2.Location = new System.Drawing.Point(182, 1);
+            this.pnl2.Margin = new System.Windows.Forms.Padding(2);
+            this.pnl2.Name = "pnl2";
+            this.pnl2.Size = new System.Drawing.Size(768, 675);
+            this.pnl2.TabIndex = 1;
+            this.pnl2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // label3
             // 
@@ -307,7 +312,7 @@ namespace QLTN
             // 
             this.pictureBox1.Image = global::QLTN.Properties.Resources.Picture11;
             this.pictureBox1.Location = new System.Drawing.Point(3, 145);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(763, 491);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -332,19 +337,20 @@ namespace QLTN
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(949, 609);
-            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.pnl2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.lblHi);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FrmTrangChu";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TrangChu";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.FrmTrangChu_Load);
             this.panel1.ResumeLayout(false);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
+            this.pnl2.ResumeLayout(false);
+            this.pnl2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -354,7 +360,7 @@ namespace QLTN
         #endregion
         private System.Windows.Forms.Label lblHi;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel pnl2;
         private System.Windows.Forms.Label label2;
         public System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem hToolStripMenuItem;

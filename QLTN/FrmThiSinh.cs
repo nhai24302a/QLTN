@@ -16,5 +16,10 @@ namespace QLTN
         {
             InitializeComponent();
         }
+
+        private void FrmThiSinh_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

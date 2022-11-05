@@ -21,5 +21,10 @@ namespace QLTN
         {
 
         }
+
+        private void FrmCaThi_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

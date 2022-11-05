@@ -231,7 +231,7 @@ namespace QLTN
             this.label7.Font = new System.Drawing.Font("Cambria", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(297, 171);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(50, 20);
+            this.label7.Size = new System.Drawing.Size(43, 16);
             this.label7.TabIndex = 5;
             this.label7.Text = "Khoa:";
             // 
@@ -241,7 +241,7 @@ namespace QLTN
             this.label6.Font = new System.Drawing.Font("Cambria", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(297, 97);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(41, 20);
+            this.label6.Size = new System.Drawing.Size(36, 16);
             this.label6.TabIndex = 4;
             this.label6.Text = "Lớp:";
             // 
@@ -251,7 +251,7 @@ namespace QLTN
             this.label5.Font = new System.Drawing.Font("Cambria", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(293, 29);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(84, 20);
+            this.label5.Size = new System.Drawing.Size(72, 16);
             this.label5.TabIndex = 3;
             this.label5.Text = "Ngày sinh:";
             // 
@@ -261,7 +261,7 @@ namespace QLTN
             this.label4.Font = new System.Drawing.Font("Cambria", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(21, 171);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(63, 20);
+            this.label4.Size = new System.Drawing.Size(53, 16);
             this.label4.TabIndex = 2;
             this.label4.Text = "Địa chỉ:";
             // 
@@ -271,7 +271,7 @@ namespace QLTN
             this.label3.Font = new System.Drawing.Font("Cambria", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(21, 101);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(97, 20);
+            this.label3.Size = new System.Drawing.Size(83, 16);
             this.label3.TabIndex = 1;
             this.label3.Text = "Tên thí sinh:";
             // 
@@ -281,7 +281,7 @@ namespace QLTN
             this.label2.Font = new System.Drawing.Font("Cambria", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(21, 25);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(93, 20);
+            this.label2.Size = new System.Drawing.Size(79, 16);
             this.label2.TabIndex = 0;
             this.label2.Text = "Mã thí sinh:";
             // 
@@ -297,18 +297,19 @@ namespace QLTN
             // 
             // FrmThiSinh
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1006, 784);
+            this.ClientSize = new System.Drawing.Size(1006, 749);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Cambria", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "FrmThiSinh";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmThiSinh";
+            this.Load += new System.EventHandler(this.FrmThiSinh_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

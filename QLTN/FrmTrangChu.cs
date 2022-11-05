@@ -38,5 +38,55 @@ namespace QLTN
         {
             lblHi.Text = lblHi.Text + " " + tenuser;
         }
+
+        private void câuHỏiToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            pnl2.Controls.Clear();
+            FrmCauHoi frm2 = new FrmCauHoi();
+            frm2.TopLevel = false;
+            pnl2.Controls.Add(frm2);
+            frm2.Dock = DockStyle.Fill;
+            frm2.Show();
+        }
+
+        private void mônThiToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            pnl2.Controls.Clear();
+            FrmMonThi frm2 = new FrmMonThi();
+            frm2.TopLevel = false;
+            pnl2.Controls.Add(frm2);
+            frm2.Dock = DockStyle.Fill;
+            frm2.Show();
+        }
+
+        private void caThiToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            pnl2.Controls.Clear();
+            FrmCaThi frm2 = new FrmCaThi();
+            frm2.TopLevel = false;
+            pnl2.Controls.Add(frm2);
+            frm2.Dock = DockStyle.Fill;
+            frm2.Show();
+        }
+
+        private void quảnLýThíSinhToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            pnl2.Controls.Clear();
+            FrmThiSinh frm2 = new FrmThiSinh();
+            frm2.TopLevel = false;
+            pnl2.Controls.Add(frm2);
+            frm2.Dock = DockStyle.Fill;
+            frm2.Show();
+        }
+
+        private void quảnLýGiảngViênToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            pnl2.Controls.Clear();
+            FrmGiangVien frm2 = new FrmGiangVien();
+            frm2.TopLevel = false;
+            pnl2.Controls.Add(frm2);
+            frm2.Dock = DockStyle.Fill;
+            frm2.Show();
+        }
     }
 }

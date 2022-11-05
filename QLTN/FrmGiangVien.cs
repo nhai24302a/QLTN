@@ -23,7 +23,7 @@ namespace QLTN
 
         private void FrmGiangVien_Load(object sender, EventArgs e)
         {
-            constr = "Data Source=DESKTOP-2C52VJI\\SQLEXPRESS;" +
+            constr = "Data Source=DESKTOP-6H5PSI2\\SQLEXPRESS05;" +
                                         "Initial Catalog=QLTN;Integrated Security=True";
             conn.ConnectionString = constr;
             conn.Open();
@@ -35,14 +35,7 @@ namespace QLTN
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            constr = "Data Source=DESKTOP-2C52VJI\\SQLEXPRESS;" +
-                            "Initial Catalog=QLTN;Integrated Security=True";
-            conn.ConnectionString = constr;
-            conn.Open();
-            sql = "Select * from tblGiangVien order by MaGV";
-            da = new SqlDataAdapter(sql, conn);
-            da.Fill(dt);
-            grdData.DataSource = dt;
+            
         }
     }
 }

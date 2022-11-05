@@ -24,8 +24,7 @@ namespace QLTN
 
         private void FrmCauHoi_Load(object sender, EventArgs e)
         {
-            constr = "Data Source=DESKTOP-6H5PSI2\\SQLEXPRESS05;" +
-                           "Initial Catalog=QLTN;Integrated Security=True";
+            constr = "Data Source = DESKTOP-5PV9M2M\\SQLEXPRESS; Initial Catalog = QLTN; Integrated Security = True;";
             conn.ConnectionString = constr;
             conn.Open();
             sql = "Select * from tblCauHoi order by MaCH";
@@ -35,6 +34,11 @@ namespace QLTN
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label9_Click(object sender, EventArgs e)
         {
 
         }

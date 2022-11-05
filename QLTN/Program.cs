@@ -16,7 +16,7 @@ namespace QLTN
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmMonThi());
+            Application.Run(new FrmGiangVien());
         }
     }
 }

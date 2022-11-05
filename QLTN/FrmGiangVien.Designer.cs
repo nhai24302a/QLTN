@@ -316,7 +316,7 @@ namespace QLTN
             // MaGV
             // 
             this.MaGV.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.MaGV.DataPropertyName = "Mã giảng viên";
+            this.MaGV.DataPropertyName = "MaGV";
             this.MaGV.HeaderText = "Mã GV";
             this.MaGV.MinimumWidth = 6;
             this.MaGV.Name = "MaGV";

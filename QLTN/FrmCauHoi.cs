@@ -7,11 +7,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace QLTN
 {
     public partial class FrmCauHoi : Form
     {
+        SqlConnection conn = new SqlConnection();
+        SqlDataAdapter da = new SqlDataAdapter();
+        DataTable dt = new DataTable();
+        string sql, constr;
         public FrmCauHoi()
         {
             InitializeComponent();
@@ -19,12 +24,31 @@ namespace QLTN
 
         private void FrmCauHoi_Load(object sender, EventArgs e)
         {
-
+            constr = "Data Source=DESKTOP-2C52VJI\\SQLEXPRESS;" +
+                           "Initial Catalog=QLTN;Integrated Security=True";
+            conn.ConnectionString = constr;
+            conn.Open();
+            sql = "Select * from tblCauHoi order by MaCH";
+            da = new SqlDataAdapter(sql, conn);
+            da.Fill(dt);
+            grdData.DataSource = dt;
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            constr = "Data Source=DESKTOP-2C52VJI\\SQLEXPRESS;" +
+                "Initial Catalog=QLTN;Integrated Security=True";
+            conn.ConnectionString = constr;
+            conn.Open();
+            sql = "Select * from tblCauHoi order by MaCH";
+            da = new SqlDataAdapter(sql, conn);
+            da.Fill(dt);
+            grdData.DataSource = dt;
         }
     }
 }

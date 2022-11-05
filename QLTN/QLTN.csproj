@@ -96,10 +96,10 @@
     <Compile Include="FrmTrangChu.Designer.cs">
       <DependentUpon>FrmTrangChu.cs</DependentUpon>
     </Compile>
-    <Compile Include="QLTNDataSet.Designer.cs">
+    <Compile Include="QLTNDataSet1.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>QLTNDataSet.xsd</DependentUpon>
+      <DependentUpon>QLTNDataSet1.xsd</DependentUpon>
     </Compile>
     <EmbeddedResource Include="FrmBangDiem.resx">
       <DependentUpon>FrmBangDiem.cs</DependentUpon>
@@ -149,16 +149,16 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="QLTNDataSet.xsc">
-      <DependentUpon>QLTNDataSet.xsd</DependentUpon>
+    <None Include="QLTNDataSet1.xsc">
+      <DependentUpon>QLTNDataSet1.xsd</DependentUpon>
     </None>
-    <None Include="QLTNDataSet.xsd">
+    <None Include="QLTNDataSet1.xsd">
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>QLTNDataSet.Designer.cs</LastGenOutput>
+      <LastGenOutput>QLTNDataSet1.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="QLTNDataSet.xss">
-      <DependentUpon>QLTNDataSet.xsd</DependentUpon>
+    <None Include="QLTNDataSet1.xss">
+      <DependentUpon>QLTNDataSet1.xsd</DependentUpon>
     </None>
     <None Include="Resources\Nền.png" />
   </ItemGroup>

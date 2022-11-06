@@ -96,8 +96,8 @@ namespace QLTN
                     txtSoCK.Text = grdData.Rows[i].Cells["SoCK"].Value.ToString();
                  
                     sql = "update tblMonThi set " +
-                        "TenMon=N'" + txtTenMon.Text + "'," +
-                      " ,SoCau='" + txtSoCau.Text + "',SoCD='" + txtSoCD.Text + "',SoCK='" + txtSoCK.Text + "'"
+                        "TenMon=N'" + txtTenMon.Text + "'" +
+                       ",SoCau='" + txtSoCau.Text + "',SoCD='" + txtSoCD.Text + "',SoCK='" + txtSoCK.Text + "'"
                         + " where MaMon='" + txtMaMon.Text + "'";
                     cmd.Connection = conn;
                     cmd.CommandText = sql;

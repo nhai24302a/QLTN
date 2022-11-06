@@ -37,7 +37,7 @@ namespace QLTN
 
         private void button1_Click(object sender, EventArgs e)
         {
-            constr = "Data Source = DESKTOP-6H5PSI2\\SQLEXPRESS05; Initial Catalog = QLTN; Integrated Security = True;";
+            constr = "Data Source = DESKTOP-2C52VJI\\SQLEXPRESS; Initial Catalog = QLTN; Integrated Security = True;";
             
             conn.ConnectionString = constr;
             conn.Open();

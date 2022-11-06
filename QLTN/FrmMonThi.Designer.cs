@@ -47,6 +47,11 @@ namespace QLTN
             this.txtSoCK = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.grdData = new System.Windows.Forms.DataGridView();
+            this.MaMon = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TenMon = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.SoCau = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.SoCD = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.SoCK = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.grdData)).BeginInit();
             this.SuspendLayout();
             // 
@@ -247,6 +252,12 @@ namespace QLTN
             // grdData
             // 
             this.grdData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.grdData.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.MaMon,
+            this.TenMon,
+            this.SoCau,
+            this.SoCD,
+            this.SoCK});
             this.grdData.Location = new System.Drawing.Point(1, 49);
             this.grdData.Name = "grdData";
             this.grdData.RowHeadersWidth = 51;
@@ -254,6 +265,49 @@ namespace QLTN
             this.grdData.Size = new System.Drawing.Size(1004, 388);
             this.grdData.TabIndex = 28;
             this.grdData.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
+            // MaMon
+            // 
+            this.MaMon.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.MaMon.DataPropertyName = "MaMon";
+            this.MaMon.HeaderText = "Mã môn";
+            this.MaMon.MinimumWidth = 6;
+            this.MaMon.Name = "MaMon";
+            this.MaMon.Width = 87;
+            // 
+            // TenMon
+            // 
+            this.TenMon.DataPropertyName = "TenMon";
+            this.TenMon.HeaderText = "Tên Môn";
+            this.TenMon.MinimumWidth = 6;
+            this.TenMon.Name = "TenMon";
+            this.TenMon.Width = 125;
+            // 
+            // SoCau
+            // 
+            this.SoCau.DataPropertyName = "SoCau";
+            this.SoCau.HeaderText = "Số câu";
+            this.SoCau.MinimumWidth = 6;
+            this.SoCau.Name = "SoCau";
+            this.SoCau.Width = 125;
+            // 
+            // SoCD
+            // 
+            this.SoCD.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.SoCD.DataPropertyName = "SoCD";
+            this.SoCD.HeaderText = "Số CD";
+            this.SoCD.MinimumWidth = 6;
+            this.SoCD.Name = "SoCD";
+            this.SoCD.Width = 77;
+            // 
+            // SoCK
+            // 
+            this.SoCK.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.SoCK.DataPropertyName = "SoCK";
+            this.SoCK.HeaderText = "Số CK";
+            this.SoCK.MinimumWidth = 6;
+            this.SoCK.Name = "SoCK";
+            this.SoCK.Width = 76;
             // 
             // FrmMonThi
             // 
@@ -308,5 +362,10 @@ namespace QLTN
         private System.Windows.Forms.TextBox txtSoCK;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.DataGridView grdData;
+        private System.Windows.Forms.DataGridViewTextBoxColumn MaMon;
+        private System.Windows.Forms.DataGridViewTextBoxColumn TenMon;
+        private System.Windows.Forms.DataGridViewTextBoxColumn SoCau;
+        private System.Windows.Forms.DataGridViewTextBoxColumn SoCD;
+        private System.Windows.Forms.DataGridViewTextBoxColumn SoCK;
     }
 }

@@ -108,8 +108,8 @@ namespace QLTN
                    
 
                     sql = "update tblGiangVien set " +
-                        " MaCa'" + txtMaCa.Text + "',MaMon='" + txtMaMon.Text + "'," +
-                      " ,TenCa=N'" + txtTenCa.Text + "',TGBD='" + txtTGBD.Text +"',TGKT='" + txtTGKT.Text + "',NgayThi='" + txtNgayThi.Text + "'"
+                        "MaMon='" + txtMaMon.Text + "'," +
+                      " TenCa=N'" + txtTenCa.Text + "',TGBD='" + txtTGBD.Text +"',TGKT='" + txtTGKT.Text + "',NgayThi='" + txtNgayThi.Text + "'"
                         + " where MaCa='" + txtMaCa.Text + "'";
                     cmd.Connection = conn;
                     cmd.CommandText = sql;

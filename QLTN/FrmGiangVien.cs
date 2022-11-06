@@ -97,7 +97,7 @@ namespace QLTN
                     txtMaMon.Text = grdData.Rows[i].Cells["MaMon"].Value.ToString();
                     txtEmail.Text = grdData.Rows[i].Cells["Email"].Value.ToString();
                    
-                    sql = "update tblGiangVien set " +
+                    sql = "set dateformat dmy update tblGiangVien set " +
                         " TenGV=N'" + txtTenGV.Text + "', DiaChi=N'" + txtDiaChi.Text + "'," +
                       " NgaySinh='" + txtNgaySinh.Text + "',MaMon='" + txtMaMon.Text +
                       "',Email='" + txtEmail.Text + "'"

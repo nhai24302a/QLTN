@@ -180,87 +180,87 @@ namespace QLTN
             // 
             this.txtMaKhoa.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMaKhoa.ForeColor = System.Drawing.Color.Black;
-            this.txtMaKhoa.Location = new System.Drawing.Point(385, 135);
+            this.txtMaKhoa.Location = new System.Drawing.Point(441, 135);
             this.txtMaKhoa.Multiline = true;
             this.txtMaKhoa.Name = "txtMaKhoa";
-            this.txtMaKhoa.Size = new System.Drawing.Size(207, 36);
+            this.txtMaKhoa.Size = new System.Drawing.Size(143, 28);
             this.txtMaKhoa.TabIndex = 11;
             // 
             // txtMaLop
             // 
             this.txtMaLop.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMaLop.ForeColor = System.Drawing.Color.Black;
-            this.txtMaLop.Location = new System.Drawing.Point(385, 76);
+            this.txtMaLop.Location = new System.Drawing.Point(441, 76);
             this.txtMaLop.Multiline = true;
             this.txtMaLop.Name = "txtMaLop";
-            this.txtMaLop.Size = new System.Drawing.Size(207, 36);
+            this.txtMaLop.Size = new System.Drawing.Size(143, 28);
             this.txtMaLop.TabIndex = 10;
             // 
             // txtNgaySinh
             // 
             this.txtNgaySinh.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNgaySinh.ForeColor = System.Drawing.Color.Black;
-            this.txtNgaySinh.Location = new System.Drawing.Point(385, 17);
+            this.txtNgaySinh.Location = new System.Drawing.Point(441, 25);
             this.txtNgaySinh.Multiline = true;
             this.txtNgaySinh.Name = "txtNgaySinh";
-            this.txtNgaySinh.Size = new System.Drawing.Size(207, 36);
+            this.txtNgaySinh.Size = new System.Drawing.Size(143, 28);
             this.txtNgaySinh.TabIndex = 9;
             // 
             // txtDiaChi
             // 
             this.txtDiaChi.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDiaChi.ForeColor = System.Drawing.Color.Black;
-            this.txtDiaChi.Location = new System.Drawing.Point(127, 135);
+            this.txtDiaChi.Location = new System.Drawing.Point(127, 137);
             this.txtDiaChi.Multiline = true;
             this.txtDiaChi.Name = "txtDiaChi";
-            this.txtDiaChi.Size = new System.Drawing.Size(144, 36);
+            this.txtDiaChi.Size = new System.Drawing.Size(198, 28);
             this.txtDiaChi.TabIndex = 8;
             // 
             // txtHoTen
             // 
             this.txtHoTen.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtHoTen.ForeColor = System.Drawing.Color.Black;
-            this.txtHoTen.Location = new System.Drawing.Point(127, 74);
+            this.txtHoTen.Location = new System.Drawing.Point(127, 77);
             this.txtHoTen.Multiline = true;
             this.txtHoTen.Name = "txtHoTen";
-            this.txtHoTen.Size = new System.Drawing.Size(144, 36);
+            this.txtHoTen.Size = new System.Drawing.Size(198, 28);
             this.txtHoTen.TabIndex = 7;
             // 
             // txtMaSV
             // 
             this.txtMaSV.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMaSV.ForeColor = System.Drawing.Color.Black;
-            this.txtMaSV.Location = new System.Drawing.Point(127, 17);
+            this.txtMaSV.Location = new System.Drawing.Point(127, 21);
             this.txtMaSV.Multiline = true;
             this.txtMaSV.Name = "txtMaSV";
-            this.txtMaSV.Size = new System.Drawing.Size(144, 36);
+            this.txtMaSV.Size = new System.Drawing.Size(198, 28);
             this.txtMaSV.TabIndex = 6;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Cambria", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(297, 141);
+            this.label7.Location = new System.Drawing.Point(353, 141);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(50, 20);
+            this.label7.Size = new System.Drawing.Size(74, 20);
             this.label7.TabIndex = 5;
-            this.label7.Text = "Khoa:";
+            this.label7.Text = "Mã khoa:";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Cambria", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(297, 82);
+            this.label6.Location = new System.Drawing.Point(353, 82);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(41, 20);
+            this.label6.Size = new System.Drawing.Size(63, 20);
             this.label6.TabIndex = 4;
-            this.label6.Text = "Lớp:";
+            this.label6.Text = "Mã lớp:";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Cambria", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(293, 29);
+            this.label5.Location = new System.Drawing.Point(349, 29);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(84, 20);
             this.label5.TabIndex = 3;
@@ -373,7 +373,7 @@ namespace QLTN
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(1005, 825);
+            this.ClientSize = new System.Drawing.Size(789, 707);
             this.Controls.Add(this.grdData);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label1);

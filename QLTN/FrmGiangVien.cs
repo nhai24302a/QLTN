@@ -29,7 +29,7 @@ namespace QLTN
 
         private void FrmGiangVien_Load(object sender, EventArgs e)
         {
-            constr = "Data Source=DESKTOP-2C52VJI\\SQLEXPRESS;" +
+            constr = "Data Source=DESKTOP-6H5PSI2\\SQLEXPRESS05;" +
                                         "Initial Catalog=QLTN;Integrated Security=True";
             conn.ConnectionString = constr;
             conn.Open();
@@ -97,7 +97,7 @@ namespace QLTN
                     txtMaMon.Text = grdData.Rows[i].Cells["MaMon"].Value.ToString();
                     txtEmail.Text = grdData.Rows[i].Cells["Email"].Value.ToString();
                    
-                    sql = "update tblGiangVien set " +
+                    sql = "set dateformat dmy  update tblGiangVien set " +
                         " TenGV=N'" + txtTenGV.Text + "', DiaChi=N'" + txtDiaChi.Text + "'," +
                       " NgaySinh='" + txtNgaySinh.Text + "',MaMon='" + txtMaMon.Text +
                       "',Email='" + txtEmail.Text + "'"
@@ -107,6 +107,8 @@ namespace QLTN
                     cmd.ExecuteNonQuery();
 
                 }
+                MessageBox.Show("Đã cập nhật thành công", "Thông báo");
+
             }
             else
             {

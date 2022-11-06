@@ -30,7 +30,7 @@ namespace QLTN
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.txtMonThi = new System.Windows.Forms.TextBox();
+            this.comMonThi = new System.Windows.Forms.ComboBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.txtSoCau = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
@@ -54,7 +54,7 @@ namespace QLTN
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.txtMonThi);
+            this.groupBox1.Controls.Add(this.comMonThi);
             this.groupBox1.Controls.Add(this.pictureBox1);
             this.groupBox1.Controls.Add(this.txtSoCau);
             this.groupBox1.Controls.Add(this.label6);
@@ -77,13 +77,14 @@ namespace QLTN
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin thí sinh";
             // 
-            // txtMonThi
+            // comMonThi
             // 
-            this.txtMonThi.Location = new System.Drawing.Point(553, 86);
-            this.txtMonThi.Margin = new System.Windows.Forms.Padding(2);
-            this.txtMonThi.Name = "txtMonThi";
-            this.txtMonThi.Size = new System.Drawing.Size(171, 28);
-            this.txtMonThi.TabIndex = 15;
+            this.comMonThi.FormattingEnabled = true;
+            this.comMonThi.Location = new System.Drawing.Point(540, 81);
+            this.comMonThi.Name = "comMonThi";
+            this.comMonThi.Size = new System.Drawing.Size(184, 29);
+            this.comMonThi.TabIndex = 15;
+            this.comMonThi.SelectedValueChanged += new System.EventHandler(this.comMonThi_SelectedIndexChanged);
             // 
             // pictureBox1
             // 
@@ -308,6 +309,6 @@ namespace QLTN
         private System.Windows.Forms.Button btnThi;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.TextBox txtMonThi;
+        private System.Windows.Forms.ComboBox comMonThi;
     }
 }

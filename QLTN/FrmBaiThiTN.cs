@@ -21,6 +21,7 @@ namespace QLTN
         DataTable dtch = new DataTable();
         DataTable dtda = new DataTable();
         string constr, sql;
+        
 
         private void FrmBaiThiTN_Load(object sender, EventArgs e)
         {

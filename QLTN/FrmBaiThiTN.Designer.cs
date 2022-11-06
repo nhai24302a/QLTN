@@ -31,7 +31,7 @@ namespace QLTN
         {
             this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.pnlCH1 = new System.Windows.Forms.Panel();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -42,7 +42,6 @@ namespace QLTN
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -50,35 +49,35 @@ namespace QLTN
             this.lblMinutes = new System.Windows.Forms.Label();
             this.lblHours = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.panel2.SuspendLayout();
+            this.label2 = new System.Windows.Forms.Label();
+            this.pnlCH1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.Location = new System.Drawing.Point(500, 2);
+            this.panel1.Location = new System.Drawing.Point(502, 223);
             this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(254, 334);
+            this.panel1.Size = new System.Drawing.Size(254, 222);
             this.panel1.TabIndex = 0;
             // 
-            // panel2
+            // pnlCH1
             // 
-            this.panel2.Controls.Add(this.button3);
-            this.panel2.Controls.Add(this.button4);
-            this.panel2.Controls.Add(this.button2);
-            this.panel2.Controls.Add(this.button1);
-            this.panel2.Controls.Add(this.radioButton3);
-            this.panel2.Controls.Add(this.radioButton4);
-            this.panel2.Controls.Add(this.radioButton2);
-            this.panel2.Controls.Add(this.radioButton1);
-            this.panel2.Controls.Add(this.textBox1);
-            this.panel2.Controls.Add(this.label1);
-            this.panel2.Controls.Add(this.label2);
-            this.panel2.Location = new System.Drawing.Point(1, 42);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(497, 556);
-            this.panel2.TabIndex = 1;
+            this.pnlCH1.Controls.Add(this.button3);
+            this.pnlCH1.Controls.Add(this.button4);
+            this.pnlCH1.Controls.Add(this.button2);
+            this.pnlCH1.Controls.Add(this.button1);
+            this.pnlCH1.Controls.Add(this.radioButton3);
+            this.pnlCH1.Controls.Add(this.radioButton4);
+            this.pnlCH1.Controls.Add(this.radioButton2);
+            this.pnlCH1.Controls.Add(this.radioButton1);
+            this.pnlCH1.Controls.Add(this.textBox1);
+            this.pnlCH1.Controls.Add(this.label1);
+            this.pnlCH1.Location = new System.Drawing.Point(1, 125);
+            this.pnlCH1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pnlCH1.Name = "pnlCH1";
+            this.pnlCH1.Size = new System.Drawing.Size(497, 492);
+            this.pnlCH1.TabIndex = 1;
             // 
             // button3
             // 
@@ -135,7 +134,7 @@ namespace QLTN
             // radioButton3
             // 
             this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(32, 390);
+            this.radioButton3.Location = new System.Drawing.Point(28, 303);
             this.radioButton3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(85, 17);
@@ -147,7 +146,7 @@ namespace QLTN
             // radioButton4
             // 
             this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(32, 349);
+            this.radioButton4.Location = new System.Drawing.Point(28, 262);
             this.radioButton4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.radioButton4.Name = "radioButton4";
             this.radioButton4.Size = new System.Drawing.Size(85, 17);
@@ -159,7 +158,7 @@ namespace QLTN
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(32, 309);
+            this.radioButton2.Location = new System.Drawing.Point(28, 222);
             this.radioButton2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(85, 17);
@@ -171,7 +170,7 @@ namespace QLTN
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(32, 268);
+            this.radioButton1.Location = new System.Drawing.Point(28, 181);
             this.radioButton1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(85, 17);
@@ -182,7 +181,7 @@ namespace QLTN
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(18, 136);
+            this.textBox1.Location = new System.Drawing.Point(14, 49);
             this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
@@ -193,23 +192,12 @@ namespace QLTN
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Cambria", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(15, 102);
+            this.label1.Location = new System.Drawing.Point(11, 15);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(31, 16);
             this.label1.TabIndex = 9;
             this.label1.Text = "Câu";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Cambria", 13.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(14, 61);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(238, 21);
-            this.label2.TabIndex = 8;
-            this.label2.Text = "Nội dung câu hỏi và đáp án:";
             // 
             // button5
             // 
@@ -221,7 +209,7 @@ namespace QLTN
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(152, 42);
             this.button5.TabIndex = 8;
-            this.button5.Text = "Kết thúc bài thi";
+            this.button5.Text = "Nộp bài";
             this.button5.UseVisualStyleBackColor = false;
             // 
             // label3
@@ -280,25 +268,37 @@ namespace QLTN
             this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Cambria", 13.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(11, 87);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(238, 21);
+            this.label2.TabIndex = 25;
+            this.label2.Text = "Nội dung câu hỏi và đáp án:";
+            // 
             // FrmBaiThiTN
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(754, 609);
+            this.ClientSize = new System.Drawing.Size(754, 650);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.lblSeconds);
             this.Controls.Add(this.lblMinutes);
             this.Controls.Add(this.lblHours);
             this.Controls.Add(this.button5);
-            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.pnlCH1);
             this.Controls.Add(this.panel1);
             this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FrmBaiThiTN";
             this.Text = "FrmBaiThiTN";
             this.Load += new System.EventHandler(this.FrmBaiThiTN_Load);
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
+            this.pnlCH1.ResumeLayout(false);
+            this.pnlCH1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -307,14 +307,13 @@ namespace QLTN
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel pnlCH1;
         private System.Windows.Forms.RadioButton radioButton3;
         private System.Windows.Forms.RadioButton radioButton4;
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button2;
@@ -326,5 +325,6 @@ namespace QLTN
         private System.Windows.Forms.Label lblMinutes;
         private System.Windows.Forms.Label lblHours;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Label label2;
     }
 }

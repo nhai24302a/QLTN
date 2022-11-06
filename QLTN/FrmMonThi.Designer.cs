@@ -157,9 +157,9 @@ namespace QLTN
             this.btnupdate.Enabled = false;
             this.btnupdate.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnupdate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(132)))), ((int)(((byte)(253)))));
-            this.btnupdate.Location = new System.Drawing.Point(618, 628);
+            this.btnupdate.Location = new System.Drawing.Point(641, 628);
             this.btnupdate.Name = "btnupdate";
-            this.btnupdate.Size = new System.Drawing.Size(108, 44);
+            this.btnupdate.Size = new System.Drawing.Size(127, 44);
             this.btnupdate.TabIndex = 23;
             this.btnupdate.Text = "Cập nhật";
             this.btnupdate.UseVisualStyleBackColor = false;
@@ -170,9 +170,9 @@ namespace QLTN
             this.btndelete.BackColor = System.Drawing.Color.White;
             this.btndelete.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btndelete.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(132)))), ((int)(((byte)(253)))));
-            this.btndelete.Location = new System.Drawing.Point(480, 628);
+            this.btndelete.Location = new System.Drawing.Point(497, 628);
             this.btndelete.Name = "btndelete";
-            this.btndelete.Size = new System.Drawing.Size(108, 44);
+            this.btndelete.Size = new System.Drawing.Size(127, 44);
             this.btndelete.TabIndex = 22;
             this.btndelete.Text = "Xóa";
             this.btndelete.UseVisualStyleBackColor = false;
@@ -183,9 +183,9 @@ namespace QLTN
             this.btnedit.BackColor = System.Drawing.Color.White;
             this.btnedit.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnedit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(132)))), ((int)(((byte)(253)))));
-            this.btnedit.Location = new System.Drawing.Point(342, 628);
+            this.btnedit.Location = new System.Drawing.Point(353, 628);
             this.btnedit.Name = "btnedit";
-            this.btnedit.Size = new System.Drawing.Size(108, 44);
+            this.btnedit.Size = new System.Drawing.Size(127, 44);
             this.btnedit.TabIndex = 21;
             this.btnedit.Text = "Sửa";
             this.btnedit.UseVisualStyleBackColor = false;
@@ -196,9 +196,9 @@ namespace QLTN
             this.btnaddnew.BackColor = System.Drawing.Color.White;
             this.btnaddnew.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnaddnew.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(132)))), ((int)(((byte)(253)))));
-            this.btnaddnew.Location = new System.Drawing.Point(204, 628);
+            this.btnaddnew.Location = new System.Drawing.Point(209, 628);
             this.btnaddnew.Name = "btnaddnew";
-            this.btnaddnew.Size = new System.Drawing.Size(108, 44);
+            this.btnaddnew.Size = new System.Drawing.Size(127, 44);
             this.btnaddnew.TabIndex = 20;
             this.btnaddnew.Text = "Thêm";
             this.btnaddnew.UseVisualStyleBackColor = false;
@@ -211,7 +211,7 @@ namespace QLTN
             this.button6.ForeColor = System.Drawing.Color.White;
             this.button6.Location = new System.Drawing.Point(269, 702);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(164, 38);
+            this.button6.Size = new System.Drawing.Size(182, 38);
             this.button6.TabIndex = 25;
             this.button6.Text = "Lọc dữ liệu";
             this.button6.UseVisualStyleBackColor = false;
@@ -223,7 +223,7 @@ namespace QLTN
             this.button5.ForeColor = System.Drawing.Color.White;
             this.button5.Location = new System.Drawing.Point(503, 702);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(164, 38);
+            this.button5.Size = new System.Drawing.Size(182, 38);
             this.button5.TabIndex = 24;
             this.button5.Text = "Hủy lọc dữ liệu";
             this.button5.UseVisualStyleBackColor = false;

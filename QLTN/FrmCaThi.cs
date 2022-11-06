@@ -107,7 +107,7 @@ namespace QLTN
                     txtNgayThi.Text = grdData.Rows[i].Cells["NgayThi"].Value.ToString();
                    
 
-                    sql = "update tblGiangVien set " +
+                    sql = "set dateformat dmy update tblCaThi set " +
                         "MaMon='" + txtMaMon.Text + "'," +
                       " TenCa=N'" + txtTenCa.Text + "',TGBD='" + txtTGBD.Text +"',TGKT='" + txtTGKT.Text + "',NgayThi='" + txtNgayThi.Text + "'"
                         + " where MaCa='" + txtMaCa.Text + "'";
@@ -138,6 +138,11 @@ namespace QLTN
 
             }
             btnupdate.Enabled = false;
+        }
+
+        private void textBox6_TextChanged(object sender, EventArgs e)
+        {
+
         }
 
         private void NapCT()

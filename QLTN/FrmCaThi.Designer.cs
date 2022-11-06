@@ -105,7 +105,7 @@ namespace QLTN
             this.btnupdate.Location = new System.Drawing.Point(708, 185);
             this.btnupdate.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnupdate.Name = "btnupdate";
-            this.btnupdate.Size = new System.Drawing.Size(88, 34);
+            this.btnupdate.Size = new System.Drawing.Size(124, 34);
             this.btnupdate.TabIndex = 20;
             this.btnupdate.Text = "Cập nhật";
             this.btnupdate.UseVisualStyleBackColor = false;
@@ -119,7 +119,7 @@ namespace QLTN
             this.btndelete.Location = new System.Drawing.Point(534, 185);
             this.btndelete.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btndelete.Name = "btndelete";
-            this.btndelete.Size = new System.Drawing.Size(88, 34);
+            this.btndelete.Size = new System.Drawing.Size(124, 34);
             this.btndelete.TabIndex = 19;
             this.btndelete.Text = "Xóa";
             this.btndelete.UseVisualStyleBackColor = false;
@@ -133,7 +133,7 @@ namespace QLTN
             this.btnedit.Location = new System.Drawing.Point(367, 185);
             this.btnedit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnedit.Name = "btnedit";
-            this.btnedit.Size = new System.Drawing.Size(88, 34);
+            this.btnedit.Size = new System.Drawing.Size(124, 34);
             this.btnedit.TabIndex = 18;
             this.btnedit.Text = "Sửa";
             this.btnedit.UseVisualStyleBackColor = false;
@@ -147,7 +147,7 @@ namespace QLTN
             this.btnaddnew.Location = new System.Drawing.Point(204, 185);
             this.btnaddnew.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnaddnew.Name = "btnaddnew";
-            this.btnaddnew.Size = new System.Drawing.Size(88, 34);
+            this.btnaddnew.Size = new System.Drawing.Size(124, 34);
             this.btnaddnew.TabIndex = 17;
             this.btnaddnew.Text = "Thêm";
             this.btnaddnew.UseVisualStyleBackColor = false;
@@ -155,50 +155,56 @@ namespace QLTN
             // 
             // txtTGKT
             // 
+            this.txtTGKT.Font = new System.Drawing.Font("Cambria", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTGKT.Location = new System.Drawing.Point(631, 117);
             this.txtTGKT.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtTGKT.Name = "txtTGKT";
-            this.txtTGKT.Size = new System.Drawing.Size(201, 22);
+            this.txtTGKT.Size = new System.Drawing.Size(201, 27);
             this.txtTGKT.TabIndex = 11;
             // 
             // txtTGBD
             // 
+            this.txtTGBD.Font = new System.Drawing.Font("Cambria", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTGBD.Location = new System.Drawing.Point(631, 71);
             this.txtTGBD.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtTGBD.Name = "txtTGBD";
-            this.txtTGBD.Size = new System.Drawing.Size(201, 22);
+            this.txtTGBD.Size = new System.Drawing.Size(201, 27);
             this.txtTGBD.TabIndex = 10;
             // 
             // txtNgayThi
             // 
+            this.txtNgayThi.Font = new System.Drawing.Font("Cambria", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNgayThi.Location = new System.Drawing.Point(631, 25);
             this.txtNgayThi.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtNgayThi.Name = "txtNgayThi";
-            this.txtNgayThi.Size = new System.Drawing.Size(201, 22);
+            this.txtNgayThi.Size = new System.Drawing.Size(201, 27);
             this.txtNgayThi.TabIndex = 9;
             // 
             // txtMaMon
             // 
+            this.txtMaMon.Font = new System.Drawing.Font("Cambria", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMaMon.Location = new System.Drawing.Point(171, 117);
             this.txtMaMon.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtMaMon.Name = "txtMaMon";
-            this.txtMaMon.Size = new System.Drawing.Size(201, 22);
+            this.txtMaMon.Size = new System.Drawing.Size(201, 27);
             this.txtMaMon.TabIndex = 8;
             // 
             // txtTenCa
             // 
+            this.txtTenCa.Font = new System.Drawing.Font("Cambria", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTenCa.Location = new System.Drawing.Point(171, 71);
             this.txtTenCa.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtTenCa.Name = "txtTenCa";
-            this.txtTenCa.Size = new System.Drawing.Size(201, 22);
+            this.txtTenCa.Size = new System.Drawing.Size(201, 27);
             this.txtTenCa.TabIndex = 7;
             // 
             // txtMaCa
             // 
+            this.txtMaCa.Font = new System.Drawing.Font("Cambria", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMaCa.Location = new System.Drawing.Point(171, 25);
             this.txtMaCa.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtMaCa.Name = "txtMaCa";
-            this.txtMaCa.Size = new System.Drawing.Size(201, 22);
+            this.txtMaCa.Size = new System.Drawing.Size(201, 27);
             this.txtMaCa.TabIndex = 6;
             // 
             // label7
@@ -207,9 +213,9 @@ namespace QLTN
             this.label7.Font = new System.Drawing.Font("Cambria", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(473, 119);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(138, 20);
+            this.label7.Size = new System.Drawing.Size(144, 20);
             this.label7.TabIndex = 5;
-            this.label7.Text = "Thời gian bắt đầu:";
+            this.label7.Text = "Thời gian kết thúc:";
             this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // label6
@@ -272,7 +278,7 @@ namespace QLTN
             this.TGBD,
             this.TGKT,
             this.NgayThi});
-            this.grdData.Location = new System.Drawing.Point(1, 48);
+            this.grdData.Location = new System.Drawing.Point(1, 51);
             this.grdData.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.grdData.Name = "grdData";
             this.grdData.RowHeadersWidth = 51;

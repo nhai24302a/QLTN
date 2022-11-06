@@ -90,7 +90,7 @@ namespace QLTN
                     txtMaKhoa.Text = grdData.Rows[i].Cells["MaKhoa"].Value.ToString();
                     txtMaLop.Text = grdData.Rows[i].Cells["MaLop"].Value.ToString();
 
-                    sql = "update tblGiangVien set " +
+                    sql = "set datefomart dmy update tblThiSinh set " +
                         " HoTen=N'" + txtHoTen.Text + "', DiaChi=N'" + txtDiaChi.Text + "'," +
                       " NgaySinh=N'" + txtNgaySinh.Text + "',MaKhoa='" + txtMaKhoa.Text +
                       "',MaLop='" + txtMaLop.Text + "'"

@@ -29,7 +29,7 @@ namespace QLTN
 
         private void FrmThiSinh_Load(object sender, EventArgs e)
         {
-            constr = "Data Source=DESKTOP-2C52VJI\\SQLEXPRESS;" +
+            constr = "Data Source=DESKTOP-6H5PSI2\\SQLEXPRESS05;" +
                                        "Initial Catalog=QLTN;Integrated Security=True";
             conn.ConnectionString = constr;
             conn.Open();

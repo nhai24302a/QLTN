@@ -540,7 +540,7 @@ namespace QLTN
                     rbDA2.Checked = true;
                 }
 
-                if (grdDataCH.Rows[i].Cells["HinhThuc"].Value.ToString() == "Nhiều lựa chọn")
+                if (dtda.Rows.Count ==4)
                 {
                     rbDA3.Visible = true;
                     rbDA4.Visible = true;

@@ -28,7 +28,7 @@ namespace QLTN
 
         private void FrmMonThi_Load(object sender, EventArgs e)
         {
-            constr = "Data Source=DESKTOP-6H5PSI2\\SQLEXPRESS05 " +
+            constr = "Data Source=DESKTOP-6H5PSI2\\SQLEXPRESS05;" +
                                                    "Initial Catalog=QLTN;Integrated Security=True";
             conn.ConnectionString = constr;
             conn.Open();

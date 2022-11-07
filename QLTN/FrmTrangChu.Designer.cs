@@ -222,20 +222,21 @@ namespace QLTN
             // 
             this.bảngĐiểmToolStripMenuItem.Image = global::QLTN.Properties.Resources.exam__1_;
             this.bảngĐiểmToolStripMenuItem.Name = "bảngĐiểmToolStripMenuItem";
-            this.bảngĐiểmToolStripMenuItem.Size = new System.Drawing.Size(238, 26);
+            this.bảngĐiểmToolStripMenuItem.Size = new System.Drawing.Size(262, 46);
             this.bảngĐiểmToolStripMenuItem.Text = "1. Bảng điểm";
             // 
             // toolStripSeparator4
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(235, 6);
+            this.toolStripSeparator4.Size = new System.Drawing.Size(259, 6);
             // 
             // lưuTrữBàiLàmToolStripMenuItem
             // 
             this.lưuTrữBàiLàmToolStripMenuItem.Image = global::QLTN.Properties.Resources.diskette;
             this.lưuTrữBàiLàmToolStripMenuItem.Name = "lưuTrữBàiLàmToolStripMenuItem";
-            this.lưuTrữBàiLàmToolStripMenuItem.Size = new System.Drawing.Size(238, 26);
+            this.lưuTrữBàiLàmToolStripMenuItem.Size = new System.Drawing.Size(262, 46);
             this.lưuTrữBàiLàmToolStripMenuItem.Text = "2. Lưu trữ bài làm";
+            this.lưuTrữBàiLàmToolStripMenuItem.Click += new System.EventHandler(this.lưuTrữBàiLàmToolStripMenuItem_Click);
             // 
             // trợGiúpToolStripMenuItem
             // 

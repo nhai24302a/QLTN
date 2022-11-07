@@ -50,7 +50,7 @@ namespace QLTN
             txtNameKQ.Text = dt.Rows[0]["HoTen"].ToString();
             txtSoCTL.Text = (sc - cktl).ToString() + "/" + sc;
             txtSoCDung.Text = cd + "/" + sc;
-            diembt = Math.Round( cd / sc,2);
+            diembt = Math.Round( cd / sc,2)*10;
             txtDiemKQ.Text = Convert.ToString(diembt);
             sql = "insert into tblKetQua (MaSV,MaMon, SoCD)" +
                       " Values ('" + msv + "',N'" + mmon + "','" + cd + "')";

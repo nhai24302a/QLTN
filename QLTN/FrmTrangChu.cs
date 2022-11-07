@@ -88,5 +88,15 @@ namespace QLTN
             frm2.Dock = DockStyle.Fill;
             frm2.Show();
         }
+
+        private void lưuTrữBàiLàmToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            pnl2.Controls.Clear();
+            FrmBangDiem frm2 = new FrmBangDiem();
+            frm2.TopLevel = false;
+            pnl2.Controls.Add(frm2);
+            frm2.Dock = DockStyle.Fill;
+            frm2.Show();
+        }
     }
 }

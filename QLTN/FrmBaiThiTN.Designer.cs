@@ -256,7 +256,7 @@ namespace QLTN
             this.btnNop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btnNop.Font = new System.Drawing.Font("Cambria", 13.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNop.ForeColor = System.Drawing.Color.White;
-            this.btnNop.Location = new System.Drawing.Point(581, 586);
+            this.btnNop.Location = new System.Drawing.Point(591, 550);
             this.btnNop.Margin = new System.Windows.Forms.Padding(2);
             this.btnNop.Name = "btnNop";
             this.btnNop.Size = new System.Drawing.Size(152, 42);
@@ -332,7 +332,7 @@ namespace QLTN
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(754, 650);
+            this.ClientSize = new System.Drawing.Size(754, 603);
             this.Controls.Add(this.fpnDA);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label4);

@@ -135,33 +135,33 @@ namespace QLTN
             // 
             this.câuHỏiToolStripMenuItem.Image = global::QLTN.Properties.Resources.book;
             this.câuHỏiToolStripMenuItem.Name = "câuHỏiToolStripMenuItem";
-            this.câuHỏiToolStripMenuItem.Size = new System.Drawing.Size(204, 46);
+            this.câuHỏiToolStripMenuItem.Size = new System.Drawing.Size(169, 26);
             this.câuHỏiToolStripMenuItem.Text = "1. Câu hỏi";
             this.câuHỏiToolStripMenuItem.Click += new System.EventHandler(this.câuHỏiToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(201, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(166, 6);
             // 
             // mônThiToolStripMenuItem
             // 
             this.mônThiToolStripMenuItem.Image = global::QLTN.Properties.Resources.education;
             this.mônThiToolStripMenuItem.Name = "mônThiToolStripMenuItem";
-            this.mônThiToolStripMenuItem.Size = new System.Drawing.Size(204, 46);
+            this.mônThiToolStripMenuItem.Size = new System.Drawing.Size(169, 26);
             this.mônThiToolStripMenuItem.Text = "2. Môn thi";
             this.mônThiToolStripMenuItem.Click += new System.EventHandler(this.mônThiToolStripMenuItem_Click);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(201, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(166, 6);
             // 
             // caThiToolStripMenuItem
             // 
             this.caThiToolStripMenuItem.Image = global::QLTN.Properties.Resources.exam;
             this.caThiToolStripMenuItem.Name = "caThiToolStripMenuItem";
-            this.caThiToolStripMenuItem.Size = new System.Drawing.Size(204, 46);
+            this.caThiToolStripMenuItem.Size = new System.Drawing.Size(169, 26);
             this.caThiToolStripMenuItem.Text = "3. Ca thi";
             this.caThiToolStripMenuItem.Click += new System.EventHandler(this.caThiToolStripMenuItem_Click);
             // 
@@ -186,20 +186,20 @@ namespace QLTN
             // 
             this.quảnLýThíSinhToolStripMenuItem.Image = global::QLTN.Properties.Resources.graduated;
             this.quảnLýThíSinhToolStripMenuItem.Name = "quảnLýThíSinhToolStripMenuItem";
-            this.quảnLýThíSinhToolStripMenuItem.Size = new System.Drawing.Size(283, 46);
+            this.quảnLýThíSinhToolStripMenuItem.Size = new System.Drawing.Size(259, 26);
             this.quảnLýThíSinhToolStripMenuItem.Text = "1. Quản lý thí sinh";
             this.quảnLýThíSinhToolStripMenuItem.Click += new System.EventHandler(this.quảnLýThíSinhToolStripMenuItem_Click);
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(280, 6);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(256, 6);
             // 
             // quảnLýGiảngViênToolStripMenuItem
             // 
             this.quảnLýGiảngViênToolStripMenuItem.Image = global::QLTN.Properties.Resources.teacher;
             this.quảnLýGiảngViênToolStripMenuItem.Name = "quảnLýGiảngViênToolStripMenuItem";
-            this.quảnLýGiảngViênToolStripMenuItem.Size = new System.Drawing.Size(283, 46);
+            this.quảnLýGiảngViênToolStripMenuItem.Size = new System.Drawing.Size(259, 26);
             this.quảnLýGiảngViênToolStripMenuItem.Text = "2. Quản lý giảng viên";
             this.quảnLýGiảngViênToolStripMenuItem.Click += new System.EventHandler(this.quảnLýGiảngViênToolStripMenuItem_Click);
             // 

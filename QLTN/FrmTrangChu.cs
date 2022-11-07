@@ -42,7 +42,7 @@ namespace QLTN
         private void câuHỏiToolStripMenuItem_Click(object sender, EventArgs e)
         {
             pnl2.Controls.Clear();
-            FrmCauHoi frm2 = new FrmCauHoi();
+            FrmCauHoi frm2 = new FrmCauHoi(tenuser);
             frm2.TopLevel = false;
             pnl2.Controls.Add(frm2);
             frm2.Dock = DockStyle.Fill;

@@ -154,7 +154,7 @@ namespace QLTN
             this.txtClass.Location = new System.Drawing.Point(300, 204);
             this.txtClass.Margin = new System.Windows.Forms.Padding(2);
             this.txtClass.Name = "txtClass";
-            this.txtClass.Size = new System.Drawing.Size(128, 28);
+            this.txtClass.Size = new System.Drawing.Size(152, 28);
             this.txtClass.TabIndex = 7;
             // 
             // label2
@@ -174,7 +174,7 @@ namespace QLTN
             this.txtBirthS.Location = new System.Drawing.Point(300, 147);
             this.txtBirthS.Margin = new System.Windows.Forms.Padding(2);
             this.txtBirthS.Name = "txtBirthS";
-            this.txtBirthS.Size = new System.Drawing.Size(128, 28);
+            this.txtBirthS.Size = new System.Drawing.Size(152, 28);
             this.txtBirthS.TabIndex = 5;
             // 
             // label1
@@ -194,7 +194,7 @@ namespace QLTN
             this.txtNameS.Location = new System.Drawing.Point(300, 86);
             this.txtNameS.Margin = new System.Windows.Forms.Padding(2);
             this.txtNameS.Name = "txtNameS";
-            this.txtNameS.Size = new System.Drawing.Size(128, 28);
+            this.txtNameS.Size = new System.Drawing.Size(152, 28);
             this.txtNameS.TabIndex = 3;
             // 
             // label3
@@ -227,7 +227,7 @@ namespace QLTN
             this.txtTenCa.Margin = new System.Windows.Forms.Padding(2);
             this.txtTenCa.Multiline = true;
             this.txtTenCa.Name = "txtTenCa";
-            this.txtTenCa.Size = new System.Drawing.Size(86, 26);
+            this.txtTenCa.Size = new System.Drawing.Size(162, 26);
             this.txtTenCa.TabIndex = 4;
             // 
             // btnThi
@@ -235,7 +235,7 @@ namespace QLTN
             this.btnThi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(132)))), ((int)(((byte)(253)))));
             this.btnThi.Font = new System.Drawing.Font("Cambria", 13.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThi.ForeColor = System.Drawing.Color.White;
-            this.btnThi.Location = new System.Drawing.Point(212, 481);
+            this.btnThi.Location = new System.Drawing.Point(229, 466);
             this.btnThi.Margin = new System.Windows.Forms.Padding(2);
             this.btnThi.Name = "btnThi";
             this.btnThi.Size = new System.Drawing.Size(139, 42);
@@ -249,7 +249,7 @@ namespace QLTN
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(132)))), ((int)(((byte)(253)))));
             this.button1.Font = new System.Drawing.Font("Cambria", 13.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(465, 481);
+            this.button1.Location = new System.Drawing.Point(482, 466);
             this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(139, 42);
@@ -270,7 +270,7 @@ namespace QLTN
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(777, 551);
+            this.ClientSize = new System.Drawing.Size(777, 535);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnThi);

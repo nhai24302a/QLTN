@@ -30,6 +30,10 @@ namespace QLTN
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.txtDAD = new System.Windows.Forms.TextBox();
+            this.txtDAC = new System.Windows.Forms.TextBox();
+            this.txtDAB = new System.Windows.Forms.TextBox();
+            this.txtDAA = new System.Windows.Forms.TextBox();
             this.comDk = new System.Windows.Forms.ComboBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.comHt = new System.Windows.Forms.ComboBox();
@@ -70,11 +74,6 @@ namespace QLTN
             this.comTenMon = new System.Windows.Forms.ComboBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btnFilterCH = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.txtDAA = new System.Windows.Forms.TextBox();
-            this.txtDAB = new System.Windows.Forms.TextBox();
-            this.txtDAC = new System.Windows.Forms.TextBox();
-            this.txtDAD = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.grdDataCH)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -121,6 +120,46 @@ namespace QLTN
             this.panel1.Size = new System.Drawing.Size(752, 318);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // txtDAD
+            // 
+            this.txtDAD.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDAD.Location = new System.Drawing.Point(49, 248);
+            this.txtDAD.Margin = new System.Windows.Forms.Padding(2);
+            this.txtDAD.Multiline = true;
+            this.txtDAD.Name = "txtDAD";
+            this.txtDAD.Size = new System.Drawing.Size(438, 25);
+            this.txtDAD.TabIndex = 45;
+            // 
+            // txtDAC
+            // 
+            this.txtDAC.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDAC.Location = new System.Drawing.Point(49, 209);
+            this.txtDAC.Margin = new System.Windows.Forms.Padding(2);
+            this.txtDAC.Multiline = true;
+            this.txtDAC.Name = "txtDAC";
+            this.txtDAC.Size = new System.Drawing.Size(438, 25);
+            this.txtDAC.TabIndex = 44;
+            // 
+            // txtDAB
+            // 
+            this.txtDAB.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDAB.Location = new System.Drawing.Point(49, 170);
+            this.txtDAB.Margin = new System.Windows.Forms.Padding(2);
+            this.txtDAB.Multiline = true;
+            this.txtDAB.Name = "txtDAB";
+            this.txtDAB.Size = new System.Drawing.Size(438, 25);
+            this.txtDAB.TabIndex = 43;
+            // 
+            // txtDAA
+            // 
+            this.txtDAA.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDAA.Location = new System.Drawing.Point(49, 128);
+            this.txtDAA.Margin = new System.Windows.Forms.Padding(2);
+            this.txtDAA.Multiline = true;
+            this.txtDAA.Name = "txtDAA";
+            this.txtDAA.Size = new System.Drawing.Size(438, 25);
+            this.txtDAA.TabIndex = 42;
             // 
             // comDk
             // 
@@ -562,7 +601,6 @@ namespace QLTN
             this.groupBox1.Controls.Add(this.comTenMon);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.btnFilterCH);
-            this.groupBox1.Controls.Add(this.button5);
             this.groupBox1.Location = new System.Drawing.Point(9, 38);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
@@ -584,59 +622,6 @@ namespace QLTN
             this.btnFilterCH.Text = "Lọc dữ liệu";
             this.btnFilterCH.UseVisualStyleBackColor = false;
             this.btnFilterCH.Click += new System.EventHandler(this.button6_Click);
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(132)))), ((int)(((byte)(253)))));
-            this.button5.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(424, 13);
-            this.button5.Margin = new System.Windows.Forms.Padding(2);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(136, 31);
-            this.button5.TabIndex = 22;
-            this.button5.Text = "Hủy lọc dữ liệu";
-            this.button5.UseVisualStyleBackColor = false;
-            // 
-            // txtDAA
-            // 
-            this.txtDAA.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDAA.Location = new System.Drawing.Point(49, 128);
-            this.txtDAA.Margin = new System.Windows.Forms.Padding(2);
-            this.txtDAA.Multiline = true;
-            this.txtDAA.Name = "txtDAA";
-            this.txtDAA.Size = new System.Drawing.Size(438, 25);
-            this.txtDAA.TabIndex = 42;
-            // 
-            // txtDAB
-            // 
-            this.txtDAB.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDAB.Location = new System.Drawing.Point(49, 170);
-            this.txtDAB.Margin = new System.Windows.Forms.Padding(2);
-            this.txtDAB.Multiline = true;
-            this.txtDAB.Name = "txtDAB";
-            this.txtDAB.Size = new System.Drawing.Size(438, 25);
-            this.txtDAB.TabIndex = 43;
-            // 
-            // txtDAC
-            // 
-            this.txtDAC.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDAC.Location = new System.Drawing.Point(49, 209);
-            this.txtDAC.Margin = new System.Windows.Forms.Padding(2);
-            this.txtDAC.Multiline = true;
-            this.txtDAC.Name = "txtDAC";
-            this.txtDAC.Size = new System.Drawing.Size(438, 25);
-            this.txtDAC.TabIndex = 44;
-            // 
-            // txtDAD
-            // 
-            this.txtDAD.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDAD.Location = new System.Drawing.Point(49, 248);
-            this.txtDAD.Margin = new System.Windows.Forms.Padding(2);
-            this.txtDAD.Multiline = true;
-            this.txtDAD.Name = "txtDAD";
-            this.txtDAD.Size = new System.Drawing.Size(438, 25);
-            this.txtDAD.TabIndex = 45;
             // 
             // FrmCauHoi
             // 
@@ -698,7 +683,6 @@ namespace QLTN
         private System.Windows.Forms.ComboBox comTenMon;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button btnFilterCH;
-        private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button btnLastCH;
         private System.Windows.Forms.Button btnNextCH;
         private System.Windows.Forms.Button btnPreCH;

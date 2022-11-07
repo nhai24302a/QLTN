@@ -13,7 +13,8 @@ namespace QLTN
 {
     public partial class FrmBaiThiTN : Form
     {
-        int hours, minutes, counts, cd, n, tag=1,i, mada=0, dem=0, ds, k=0;
+        int hours, minutes, counts, cd, n, tag=1,i, mada=0, ds, k=0;
+        double dem = 0;
         SqlConnection conn = new SqlConnection();
         SqlDataAdapter da = new SqlDataAdapter();
         SqlCommand cmd = new SqlCommand();
@@ -26,7 +27,7 @@ namespace QLTN
 
         }
 
-        string constr, sql, username, subname, ht, r;
+        string constr, sql, username, subname, ht, r, sub, mats;
 
         private void button5_Click(object sender, EventArgs e)
         {
@@ -56,7 +57,11 @@ namespace QLTN
                     k = k + 1;
                 }
             }
-            MessageBox.Show("so cau dung : " + dem +" so cau ko lam:" +k);
+            //MessageBox.Show("so cau dung : " + dem +" so cau ko lam:" +k);
+            this.Hide();
+            FrmKetQua f = new FrmKetQua(sub, mats, dem, k);
+            f.Show();
+
         }
 
         private void rdDA1_Click(object sender, EventArgs e)
@@ -83,7 +88,7 @@ namespace QLTN
               "Initial Catalog=QLTN;Integrated Security=True;";
             conn.ConnectionString = constr;
             conn.Open();
-            sql = "select  tblCaThi.TenCa, tblCaThi.NgayThi, tblCaThi.TGBD, tblCaThi.TGKT, tblThiSinh.HoTen, tblThiSinh.NgaySinh, tblLop.TenLop, tblMonThi.TenMon, tblMonThi.SoCau, tblMonThi.ThoiGian,tblMonThi.SoCD, tblThiSinh.MaSV " +
+            sql = "select  tblCaThi.TenCa, tblCaThi.NgayThi, tblCaThi.TGBD, tblCaThi.TGKT, tblThiSinh.HoTen, tblThiSinh.NgaySinh, tblLop.TenLop,tblMonThi.MaMon, tblMonThi.TenMon, tblMonThi.SoCau, tblMonThi.ThoiGian,tblMonThi.SoCD, tblThiSinh.MaSV " +
                 "FROM Thi INNER JOIN "
                          + "tblLop ON Thi.MaLop = tblLop.MaLop INNER JOIN "
                          + "tblMonThi ON Thi.MaMon = tblMonThi.MaMon INNER JOIN "
@@ -97,6 +102,9 @@ namespace QLTN
             da.Fill(dt);
             n = int.Parse(dt.Rows[0]["SoCau"].ToString());
             cd = int.Parse(dt.Rows[0]["SoCD"].ToString());
+            sub = dt.Rows[0]["MaMon"].ToString();
+            mats = dt.Rows[0]["MaSV"].ToString();
+
 
             sql = "SELECT    TOP " + cd + " tblCauHoi.MaCH, tblCauHoi.NoiDung, tblCauHoi.DoKho, tblCauHoi.HinhThuc, tblCauHoi.Ychon "
            + "FROM tblCauHoi INNER JOIN " +

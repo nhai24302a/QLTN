@@ -28,7 +28,7 @@ namespace QLTN
 
         private void FrmMonThi_Load(object sender, EventArgs e)
         {
-            constr = "Data Source=DESKTOP-2C52VJI\\SQLEXPRESS;" +
+            constr = "Data Source=DESKTOP-6H5PSI2\\SQLEXPRESS05 " +
                                                    "Initial Catalog=QLTN;Integrated Security=True";
             conn.ConnectionString = constr;
             conn.Open();
@@ -58,7 +58,7 @@ namespace QLTN
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-
+            
         }
 
         private void btnedit_Click(object sender, EventArgs e)

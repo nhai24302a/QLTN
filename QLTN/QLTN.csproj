@@ -70,12 +70,6 @@
     <Compile Include="FrmCauHoi.Designer.cs">
       <DependentUpon>FrmCauHoi.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmDapAn.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmDapAn.Designer.cs">
-      <DependentUpon>FrmDapAn.cs</DependentUpon>
-    </Compile>
     <Compile Include="FrmGiangVien.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -142,9 +136,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmCauHoi.resx">
       <DependentUpon>FrmCauHoi.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrmDapAn.resx">
-      <DependentUpon>FrmDapAn.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmGiangVien.resx">
       <DependentUpon>FrmGiangVien.cs</DependentUpon>

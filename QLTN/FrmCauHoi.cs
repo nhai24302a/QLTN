@@ -264,6 +264,70 @@ namespace QLTN
                     cmd.CommandText = sql;
                     cmd.ExecuteNonQuery();
 
+                    sql = "SELECT         tblDapAn.MaDA, tblDapAn.NoiDung, tblDapAn.DungSai " +
+                "FROM            tblCauHoi INNER JOIN " +
+                "tblDapAn ON tblCauHoi.MaCH = tblDapAn.MaCH " +
+                "where tblDapAn.MaCH='" + txtMaCH.Text + "'";
+                    da = new SqlDataAdapter(sql, conn);
+                    dtda.Clear();
+                    da.Fill(dtda);
+
+
+                    if (dtda.Rows.Count > 0)
+                    {
+                        txtDAA.Text = dtda.Rows[0][1].ToString();
+                        txtDAB.Text = dtda.Rows[1][1].ToString();
+                        //ht = dtch.Rows[i]["HinhThuc"].ToString();
+                        if (dtda.Rows[0]["DungSai"].ToString() == "Đúng")
+                        {
+                            rbDA1.Checked = true;
+                        }
+                        else if (dtda.Rows[1]["DungSai"].ToString() == "Đúng")
+                        {
+                            rbDA2.Checked = true;
+                        }
+
+                        if (grdDataCH.Rows[i].Cells["HinhThuc"].Value.ToString() == "Nhiều lựa chọn")
+                        {
+                            rbDA3.Visible = true;
+                            rbDA4.Visible = true;
+                            txtDAC.Visible = true;
+                            txtDAD.Visible = true;
+                            txtDAC.Text = dtda.Rows[2][1].ToString();
+                            txtDAD.Text = dtda.Rows[3][1].ToString();
+                            if (dtda.Rows[2]["DungSai"].ToString() == "Đúng")
+                            {
+                                rbDA3.Checked = true;
+                            }
+                            else if (dtda.Rows[3]["DungSai"].ToString() == "Đúng")
+                            {
+                                rbDA4.Checked = true;
+                            }
+                        }
+                        else
+                        {
+                            rbDA3.Visible = false;
+                            rbDA4.Visible = false;
+                            txtDAC.Visible = false;
+                            txtDAD.Visible = false;
+                        }
+                    }
+                    else
+                    {
+                        rbDA3.Visible = true;
+                        rbDA4.Visible = true;
+                        txtDAC.Visible = true;
+                        txtDAD.Visible = true;
+                        rbDA1.Checked = false;
+                        rbDA2.Checked = false;
+                        rbDA3.Checked = false;
+                        rbDA4.Checked = false;
+                        txtDAA.Clear();
+                        txtDAB.Clear();
+                        txtDAC.Clear();
+                        txtDAD.Clear();
+
+                    }
 
                     if (comHt.Text == "Nhiều lựa chọn")
 
@@ -274,11 +338,11 @@ namespace QLTN
                         txtDAD.Visible = true;
                         sql = "update tblDapAn set " + " NoiDung=N'" + txtDAA.Text + "' " +
                           "   Where MaCH='" + txtMaCH.Text + "' and MaDA = N'DA" + 1 + "' "+
-                          "update tblDapAn set " + " MaDA=N'DA" + 2 + "', NoiDung=N'" + txtDAB.Text + "' " +
+                          "update tblDapAn set " + " NoiDung=N'" + txtDAB.Text + "' " +
                           "   Where MaCH='" + txtMaCH.Text  + "' and MaDA = N'DA" + 2 + "' " +
-                          "update tblDapAn set " + " MaDA=N'DA" + 3 + "', NoiDung=N'" + txtDAC.Text + "' " +
+                          "update tblDapAn set " + " NoiDung=N'" + txtDAC.Text + "' " +
                           "   Where MaCH='" + txtMaCH.Text  + "' and MaDA = N'DA" + 3 + "' " +
-                          "update tblDapAn set " + " MaDA=N'DA" + 4 + "', NoiDung=N'" + txtDAD.Text + "' " +
+                          "update tblDapAn set " + " NoiDung=N'" + txtDAD.Text + "' " +
                           "   Where MaCH='" + txtMaCH.Text  + "' and MaDA = N'DA" + 4 + "'";
                         cmd.Connection = conn;
                         cmd.CommandText = sql;
@@ -310,7 +374,7 @@ namespace QLTN
                     {
                         sql = "update tblDapAn set " + " NoiDung=N'" + txtDAA.Text + "' " +
                           "   Where MaCH='" + txtMaCH.Text + "' and MaDA = N'DA" + 1 + "' " +
-                          "update tblDapAn set " + " MaDA=N'DA" + 2 + "', NoiDung=N'" + txtDAB.Text + "' " +
+                          "update tblDapAn set " + " NoiDung=N'" + txtDAB.Text + "' " +
                           "   Where MaCH='" + txtMaCH.Text + "' and MaDA = N'DA" + 2 + "'";
                         for (j = 1; j <= 2; j++)
                         {
